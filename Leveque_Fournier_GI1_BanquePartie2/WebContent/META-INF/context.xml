@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Leveque_Fournier_GI1_BanquePartie2" 
+docBase="Leveque_Fournier_GI1_BanquePartie2" debug="5" 
+reloadable="true" crossContext="true">
+<Resource name="jdbc/bdJEE" auth="Container"
+  type="javax.sql.DataSource"
+driverClassName="oracle.jdbc.OracleDriver"
+url="jdbc:oracle:thin:@192.168.85.128:1521:mydb"
+username="fourlev_banque" password="fourlev_banque"
+maxActive="20" maxIdle="10" maxWait="-1"
+removeAbandoned="true" 
+removeAbandonedTimeout="60"
+logAbandoned="true" /> 
+</Context>
